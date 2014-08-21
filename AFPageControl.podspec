@@ -15,15 +15,16 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "AFCycleTableView"
+  s.name         = "AFPageControl"
   s.version      = "0.0.1"
-  s.summary      = "A UI for Shuffling figure."
+  s.summary      = "A UI replace UIPageControl because the dot is alternative image."
 
   s.description  = <<-DESC
-                   A UI for Shuffling figure(关于轮播图的控件) 
+                   A UI replace UIPageControl because the dot is alternative image .
+                   (一个自定义的PageControl，用图片替换点的形状。) 
                    DESC
 
-  s.homepage     = "http://blog.afantree.com/github/AFCycleTableView"
+  s.homepage     = "http://blog.afantree.com/github/AFPageControl"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -59,8 +60,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/afantree/AFCycleTableView.git", :tag => "0.0.1" }
-  s.source_files  = "AFCycleTableView/Classes/*.{h,m}"
+  s.source       = { :git => "https://github.com/afantree/AFPageControl.git", :tag => "0.0.1" }
+  s.source_files  = "AFPageControl/Classes/*.{h,m}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

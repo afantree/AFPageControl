@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144939DB19A5BEF900C5EB96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144939DA19A5BEF900C5EB96 /* Foundation.framework */; };
+		144939E919A5BEF900C5EB96 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144939E819A5BEF900C5EB96 /* XCTest.framework */; };
+		144939EA19A5BEF900C5EB96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144939DA19A5BEF900C5EB96 /* Foundation.framework */; };
+		144939EC19A5BEF900C5EB96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144939EB19A5BEF900C5EB96 /* UIKit.framework */; };
+		144939EF19A5BEF900C5EB96 /* libAFPageControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 144939D719A5BEF900C5EB96 /* libAFPageControl.a */; };
+		144939F519A5BEF900C5EB96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 144939F319A5BEF900C5EB96 /* InfoPlist.strings */; };
+		144939F719A5BEF900C5EB96 /* AFPageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 144939F619A5BEF900C5EB96 /* AFPageControlTests.m */; };
+		14493A4519A5BFC500C5EB96 /* AFPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 14493A4219A5BFC500C5EB96 /* AFPageControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		144939ED19A5BEF900C5EB96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 144939CF19A5BEF900C5EB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 144939D619A5BEF900C5EB96;
+			remoteInfo = AFPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		144939D519A5BEF900C5EB96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		144939D719A5BEF900C5EB96 /* libAFPageControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFPageControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		144939DA19A5BEF900C5EB96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		144939DE19A5BEF900C5EB96 /* AFPageControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFPageControl-Prefix.pch"; sourceTree = "<group>"; };
+		144939E719A5BEF900C5EB96 /* AFPageControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFPageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		144939E819A5BEF900C5EB96 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		144939EB19A5BEF900C5EB96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		144939F219A5BEF900C5EB96 /* AFPageControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFPageControlTests-Info.plist"; sourceTree = "<group>"; };
+		144939F419A5BEF900C5EB96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		144939F619A5BEF900C5EB96 /* AFPageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPageControlTests.m; sourceTree = "<group>"; };
+		14493A4119A5BFC500C5EB96 /* AFPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFPageControl.h; path = Classes/AFPageControl.h; sourceTree = SOURCE_ROOT; };
+		14493A4219A5BFC500C5EB96 /* AFPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFPageControl.m; path = Classes/AFPageControl.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		144939D419A5BEF900C5EB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144939DB19A5BEF900C5EB96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144939E419A5BEF900C5EB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144939E919A5BEF900C5EB96 /* XCTest.framework in Frameworks */,
+				144939EF19A5BEF900C5EB96 /* libAFPageControl.a in Frameworks */,
+				144939EC19A5BEF900C5EB96 /* UIKit.framework in Frameworks */,
+				144939EA19A5BEF900C5EB96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144939CE19A5BEF900C5EB96 = {
+			isa = PBXGroup;
+			children = (
+				144939DC19A5BEF900C5EB96 /* AFPageControl */,
+				144939F019A5BEF900C5EB96 /* AFPageControlTests */,
+				144939D919A5BEF900C5EB96 /* Frameworks */,
+				144939D819A5BEF900C5EB96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		144939D819A5BEF900C5EB96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				144939D719A5BEF900C5EB96 /* libAFPageControl.a */,
+				144939E719A5BEF900C5EB96 /* AFPageControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		144939D919A5BEF900C5EB96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				144939DA19A5BEF900C5EB96 /* Foundation.framework */,
+				144939E819A5BEF900C5EB96 /* XCTest.framework */,
+				144939EB19A5BEF900C5EB96 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		144939DC19A5BEF900C5EB96 /* AFPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				14493A4119A5BFC500C5EB96 /* AFPageControl.h */,
+				14493A4219A5BFC500C5EB96 /* AFPageControl.m */,
+				144939DD19A5BEF900C5EB96 /* Supporting Files */,
+			);
+			path = AFPageControl;
+			sourceTree = "<group>";
+		};
+		144939DD19A5BEF900C5EB96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				144939DE19A5BEF900C5EB96 /* AFPageControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		144939F019A5BEF900C5EB96 /* AFPageControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				144939F619A5BEF900C5EB96 /* AFPageControlTests.m */,
+				144939F119A5BEF900C5EB96 /* Supporting Files */,
+			);
+			path = AFPageControlTests;
+			sourceTree = "<group>";
+		};
+		144939F119A5BEF900C5EB96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				144939F219A5BEF900C5EB96 /* AFPageControlTests-Info.plist */,
+				144939F319A5BEF900C5EB96 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		144939D619A5BEF900C5EB96 /* AFPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144939FA19A5BEF900C5EB96 /* Build configuration list for PBXNativeTarget "AFPageControl" */;
+			buildPhases = (
+				144939D319A5BEF900C5EB96 /* Sources */,
+				144939D419A5BEF900C5EB96 /* Frameworks */,
+				144939D519A5BEF900C5EB96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFPageControl;
+			productName = AFPageControl;
+			productReference = 144939D719A5BEF900C5EB96 /* libAFPageControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		144939E619A5BEF900C5EB96 /* AFPageControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144939FD19A5BEF900C5EB96 /* Build configuration list for PBXNativeTarget "AFPageControlTests" */;
+			buildPhases = (
+				144939E319A5BEF900C5EB96 /* Sources */,
+				144939E419A5BEF900C5EB96 /* Frameworks */,
+				144939E519A5BEF900C5EB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				144939EE19A5BEF900C5EB96 /* PBXTargetDependency */,
+			);
+			name = AFPageControlTests;
+			productName = AFPageControlTests;
+			productReference = 144939E719A5BEF900C5EB96 /* AFPageControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		144939CF19A5BEF900C5EB96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ManGang;
+			};
+			buildConfigurationList = 144939D219A5BEF900C5EB96 /* Build configuration list for PBXProject "AFPageControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 144939CE19A5BEF900C5EB96;
+			productRefGroup = 144939D819A5BEF900C5EB96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				144939D619A5BEF900C5EB96 /* AFPageControl */,
+				144939E619A5BEF900C5EB96 /* AFPageControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		144939E519A5BEF900C5EB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144939F519A5BEF900C5EB96 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		144939D319A5BEF900C5EB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14493A4519A5BFC500C5EB96 /* AFPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144939E319A5BEF900C5EB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144939F719A5BEF900C5EB96 /* AFPageControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		144939EE19A5BEF900C5EB96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 144939D619A5BEF900C5EB96 /* AFPageControl */;
+			targetProxy = 144939ED19A5BEF900C5EB96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		144939F319A5BEF900C5EB96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				144939F419A5BEF900C5EB96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		144939F819A5BEF900C5EB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		144939F919A5BEF900C5EB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		144939FB19A5BEF900C5EB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AFPageControl.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFPageControl/AFPageControl-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		144939FC19A5BEF900C5EB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AFPageControl.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFPageControl/AFPageControl-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		144939FE19A5BEF900C5EB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFPageControl/AFPageControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AFPageControlTests/AFPageControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		144939FF19A5BEF900C5EB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFPageControl/AFPageControl-Prefix.pch";
+				INFOPLIST_FILE = "AFPageControlTests/AFPageControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		144939D219A5BEF900C5EB96 /* Build configuration list for PBXProject "AFPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144939F819A5BEF900C5EB96 /* Debug */,
+				144939F919A5BEF900C5EB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144939FA19A5BEF900C5EB96 /* Build configuration list for PBXNativeTarget "AFPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144939FB19A5BEF900C5EB96 /* Debug */,
+				144939FC19A5BEF900C5EB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		144939FD19A5BEF900C5EB96 /* Build configuration list for PBXNativeTarget "AFPageControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144939FE19A5BEF900C5EB96 /* Debug */,
+				144939FF19A5BEF900C5EB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 144939CF19A5BEF900C5EB96 /* Project object */;
+}
